@@ -4,6 +4,14 @@
 
 This library is a single import that monkeypatches as squelches several built-in functions in the browser that are used to prove script execution has been achieved when testing for cross-site scripting flaws.
 
+## Installing
+
+You can either grab it from the [releases](https://github.com/mgillam/golden.js/releases) page and host it yourself, or you can load it from a CDN like jsdelivr as shown below.
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/mgillam/golden.js/lib/golden.min.js"></script>
+```
+
 ## Usage
 Import with a script tag for default behavior.
 
