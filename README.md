@@ -19,7 +19,7 @@ To override with custom options, add a `data-golden-options` attribute to the sc
 
 ### Options values
 
-Each option is enabled (supressing a behavior) if the value is included, disabled if the value is not. Options can be combined by supplying the sum of them. For example, if you wanted to allow `console` events, but suppress popups and `document.write`, you would combine use the sum of `2` + `4`, so your `data-bliss-options` would be set to `"6"`.
+Each option is enabled (supressing a behavior) if the value is included, disabled if the value is not. Options can be combined by supplying the sum of them. For example, if you wanted to allow `console` events, but suppress popups and `document.write`, you would combine use the sum of `2` + `4`, so your `data-golden-options` would be set to `"6"`.
 
 | Value | Effect |
 | --- | --- |

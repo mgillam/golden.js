@@ -1,16 +1,16 @@
 {
-  "name": "bliss",
+  "name": "goldenjs",
   "version": "1.0.0",
   "description": "A squelch lib for hiding browser-based alerts and similar.",
   "main": "src/index.ts",
   "scripts": {
-    "build": "tsc & uglifyjs lib/bliss.js -o lib/bliss.min.js --compress --mangle",
+    "build": "tsc & uglifyjs lib/golden.js -o lib/golden.min.js --compress --mangle",
     "testapp": "copyfiles -f \"./lib/**/*\" ./test/lib & http-server test",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mgillam/bliss.git"
+    "url": "git+https://github.com/mgillam/golden.js.git"
   },
   "keywords": [
     "xss",
@@ -19,9 +19,9 @@
   "author": "mgillam",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mgillam/bliss/issues"
+    "url": "https://github.com/mgillam/golden.js/issues"
   },
-  "homepage": "https://github.com/mgillam/bliss#readme",
+  "homepage": "https://github.com/mgillam/golden.js#readme",
   "dependencies": {},
   "devDependencies": {
     "copyfiles": "^2.4.1",

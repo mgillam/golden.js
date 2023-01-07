@@ -15,4 +15,4 @@
     document.write = () => {};
     document.writeln = () => {};
   }
-})(parseInt(document.querySelector("script[data-bliss-options]")?.getAttribute("data-golden-options") || "3")); 
+})(parseInt(document.querySelector("script[data-golden-options]")?.getAttribute("data-golden-options") || "3")); 
